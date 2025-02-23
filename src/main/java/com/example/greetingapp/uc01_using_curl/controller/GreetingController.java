@@ -9,7 +9,6 @@ import java.util.Map;
 @RestController
 @RequestMapping("/greet")
 public class GreetingController {
-
     @GetMapping
     public ResponseEntity<Map<String, String>> getGreeting() {
         return ResponseEntity.ok(Map.of("message", "Hello from GET!"));
