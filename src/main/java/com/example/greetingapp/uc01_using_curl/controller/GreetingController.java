@@ -8,7 +8,6 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/greet")
-
 public class GreetingController {
 
     @GetMapping
